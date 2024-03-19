@@ -44,9 +44,9 @@ Users should be able to:
 - CSS Grid
 - Vite
 - [React](https://reactjs.org/) - JS library
+- React Context API
 - Zod
 - BEM CSS class naming convention
-
 
 ### What I learned
 

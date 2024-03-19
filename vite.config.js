@@ -9,5 +9,6 @@ export default defineConfig({
       "@": "/src",
       "@components": "/src/components",
     }
-  }
+  },
+  base:"/Multi-Step-Form-Challenge/"
 })

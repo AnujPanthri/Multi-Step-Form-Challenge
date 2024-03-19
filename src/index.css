@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  src: url("/assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  src: url("/assets/fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  src: url("/assets/fonts/Ubuntu-Bold.ttf");
+}
+
+/*|| RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input{
+  font-family: inherit;
+}
+/*|| Root VARIABLES */
+:root {
+
+  --font: "Ubuntu", sans-serif;
+  
+  --bg-sidebar-desktop: url("/assets/images/bg-sidebar-desktop.svg");
+  --bg-sidebar-mobile: url("/assets/images/bg-sidebar-mobile.svg");
+  --icon-advanced: url("/assets/images/icon-advanced.svg");
+  --icon-arcade: url("/assets/images/icon-arcade.svg");
+  --icon-checkmark: url("/assets/images/icon-checkmark.svg");
+  --icon-pro: url("/assets/images/icon-pro.svg");
+  --icon-thank-you: url("/assets/images/icon-thank-you.svg");
+
+  /*|| Colors */
+  /* Primary */
+
+  --marine-blue: hsl(213, 96%, 18%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawberry-red: hsl(354, 84%, 57%);
+
+  /* Neutral */
+
+  --cool-gray: hsl(231, 11%, 63%);
+  --light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
+
+}
+
+/*|| UTILITY CLASSES */
+
+.flex{
+  display:flex;
+}
+.flex-row{
+  flex-direction: row;
+}
+.flex-col{
+  flex-direction: column;
+}
+.gap-0-4{
+  gap:0.4em;
+}
+.gap-0-6{
+  gap:0.6em;
+}
+.gap-0-8{
+  gap:0.8em;
+}
+.gap-1{
+  gap:1em;
+}
+.gap-1-5{
+  gap:1.5em;
+}
+.gap-2{
+  gap:2em;
+}
+.gap-3{
+  gap:3em;
+}
+.gap-4{
+  gap:4em;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.w-full{
+  width:100%;
+}
+
+/*|| GENERAL STYLES */
+body {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}

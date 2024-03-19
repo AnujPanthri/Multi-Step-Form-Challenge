@@ -1,0 +1,51 @@
+.addons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 1em;
+}
+
+
+.addon {
+    padding: 1.5em;
+    border: 1px solid var(--light-gray);
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--purplish-blue);
+    }
+}
+
+.addon.checked {
+    background-color: var(--magnolia);
+    border-color: var(--purplish-blue);
+}
+
+.addon__checkbox {
+    height: 25px;
+    aspect-ratio: 1;
+    accent-color: var(--purplish-blue);
+}
+
+.addon__title {
+    color: var(--marine-blue);
+    font-weight: 500;
+}
+
+.addon__desc {
+    color: var(--cool-gray);
+    font-size: 0.9em;
+}
+
+.addon__rate {
+    color: var(--purplish-blue);
+    font-size: 0.9em;
+    font-weight: 500;
+}

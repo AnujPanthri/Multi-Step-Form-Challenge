@@ -1,0 +1,39 @@
+.button {
+    color: var(--white);
+    background-color: black;
+    border: none;
+    outline: none;
+
+    padding: 1em 1.6em;
+
+    border-radius: 8px;
+
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.button.back {
+    background-color: var(--white);
+    color: var(--cool-gray);
+
+    &:hover {
+        color: var(--marine-blue);
+    }
+}
+
+.button.next {
+    background-color: var(--marine-blue);
+
+    &:hover {
+        background-color: hsl(213, 96%, 30%);
+    }
+}
+
+.button.confirm {
+    background-color: var(--purplish-blue);
+
+    &:hover {
+        background-color: hsl(243, 100%, 75%);
+    }
+}

@@ -1,0 +1,29 @@
+.thankyou {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+    padding:3em 0;
+}
+
+.thankyou .logo{
+    height: 4em;
+    aspect-ratio: 1;
+    margin-bottom: 0.7em;
+}
+
+.thankyou .title{
+    font-size:1.7em;
+    font-weight: 700;
+    color: var(--marine-blue);
+}
+
+.thankyou .msg{
+    color:var(--cool-gray);
+    font-size:0.85em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
